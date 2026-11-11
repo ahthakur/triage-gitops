@@ -24,7 +24,6 @@ spec:
         securityContext:
           allowPrivilegeEscalation: false
           capabilities: {drop: [ALL]}
-          runAsUser: 0
         resources:
           requests: {cpu: 50m, memory: 32Mi}
           limits: {memory: 64Mi}
